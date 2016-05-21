@@ -1,0 +1,3 @@
+[submodule "wp-content/themes/jng15"]
+	path = wp-content/themes/jng15
+	url = https://github.com/jngutteridge/wptheme_jng15.git
