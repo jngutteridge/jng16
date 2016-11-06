@@ -1,4 +1,11 @@
 {
+  "name": "jngutteridge/jng16_wp",
+  "authors": [
+    {
+      "name": "Jack Gutteridge",
+      "email": "jack@kingbrick.co.uk"
+    }
+  ],
   "repositories": [
     {
       "type": "composer",
@@ -6,11 +13,16 @@
     }
   ],
   "require": {
-    "php": ">=5.4",
-    "johnpbloch/wordpress": "4.5.x",
-    "wpackagist-plugin/advanced-custom-fields": "4.4.x"
+    "johnpbloch/wordpress": "^4.6",
+    "composer/installers": "^1.2",
+    "wpackagist-plugin/google-analytics-for-wordpress": "^5.5"
   },
   "extra": {
-    "wordpress-install-dir": "wordpress"
+    "wordpress-install-dir": "./web/wordpress",
+    "installer-paths": {
+      "web/wp-content/plugins/{$name}": [
+        "wpackagist-plugin/google-analytics-for-wordpress"
+      ]
+    }
   }
 }

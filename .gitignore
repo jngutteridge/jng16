@@ -1,4 +1,6 @@
 node_modules
 /vendor/
-/wordpress/
-/wp-content/
+/web/wp-config.php
+/web/wordpress/
+/web/wp-content/plugins
+/.idea
