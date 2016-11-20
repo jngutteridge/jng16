@@ -1,3 +1,3 @@
-[submodule "web/wp-content/themes/wptheme_jng16"]
-	path = web/wp-content/themes/jng16
+[submodule "/web/wp-content/themes/wptheme_jng16"]
+	path = /web/wp-content/themes/wptheme_jng16
 	url = https://github.com/jngutteridge/wptheme_jng16.git
